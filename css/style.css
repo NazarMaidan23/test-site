@@ -1,0 +1,44 @@
+nav ul {
+  display: flex;
+}
+nav ul li {
+  text-transform: uppercase;
+  list-style: none;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+}
+header {
+  height: 1017px;
+  background: url("../img/bg_png/top-right.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+header .col-md-5 {
+  margin-top: 200px;
+}
+header .col-md-5 h4 {
+  text-transform: uppercase;
+  font: 24px "Comic Sans MS";
+  font-weight: bold;
+}
+header .col-md-5 input {
+  border: 0;
+  border-bottom: 2px solid #6cddcb;
+  width: 300px;
+  margin: 10px ;
+  outline: none;
+  padding: 5px 0;
+}
+header .col-md-5 label {
+  margin: 10px 0 0 -160px;
+}
+header .col-md-7 img {
+  width: 90%;
+  height: auto;
+}
